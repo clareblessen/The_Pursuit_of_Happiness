@@ -1,2 +1,3 @@
-# Mod4_project
-World Happiness- Regression Models comparison
+# Predicting Happiness around the World
+# The Data
+The data comes from the World Happiness Report collected from 
