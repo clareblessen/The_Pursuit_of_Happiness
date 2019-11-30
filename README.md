@@ -39,7 +39,7 @@ The model without continent variable : explained 75% of the variance, AIC is 835
 ![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/normality of error.png)
 
 ## Homoscedasticity assumption
-![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/residualplot.png)
+![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/residualpolot.png)
 
 
 
