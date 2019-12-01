@@ -1,6 +1,6 @@
 # Predicting Happiness around the World
 # The Data
-The data comes from the World Happiness Report collected from Gallup World Poll. The World Happiness Report is a landmark survey of the state of global happiness. The first report was published in 2012, the second in 2013, the third in 2015, and the fourth in the 2016 Update. The World Happiness 2017, which ranks 155 countries by their happiness levels, was released at the United Nations at an event celebrating International Day of Happiness on March 20th. The report continues to gain global recognition as governments, organizations and civil society increasingly use happiness indicators to inform their policy-making decisions. Leading experts across fields – economics, psychology, survey analysis, national statistics, health, public policy and more – describe how measurements of well-being can be used effectively to assess the progress of nations. The reports review the state of happiness in the world today and show how the new science of happiness explains personal and national variations in happiness.
+The data comes from the World Happiness Report collected from Gallup World Poll. The World Happiness Report is a landmark survey of the state of global happiness. The first report was published in 2012. The World Happiness 2017, which ranks 155 countries by their happiness levels, was released at the United Nations. The report continues to gain global recognition as governments, organizations and civil society increasingly use happiness indicators to inform their policy-making decisions. Leading experts across fields – economics, psychology, survey analysis, national statistics, health, public policy and more – describe how measurements of well-being can be used effectively to assess the progress of nations. The reports review the state of happiness in the world today and show how the new science of happiness explains personal and national variations in happiness.
 
 # Variables
 The scores are based on answers to the main life evaluation question asked in the poll. This question, known as the Cantril ladder, asks respondents to think of a ladder/Rank with the best possible life for them being a 10 and the worst possible life being a 0 and to rate their own current lives on that scale. The variables following the happiness score estimate the extent to which each of six factors – economic production/GDP, Family/social support, life expectancy, freedom, absence of corruption, and generosity.
@@ -14,18 +14,19 @@ We want to first look at how countries and continent played a role on the happin
 ![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/map.png)
 
 
-Looks like Europeans are generally happier than other parts of the world.
+It looks like Europeans are generally happier than other parts of the world.
 
-See if each variables distributions in histogram.
+We then see if the variables are normally distributed.
 ![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/featurescorrelation.png)
 
 
 # Feature Engineering
 ![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/cor.png)
 
-We decided to drop Health life expectancy because it violated the multicollinearity assumptions. And it was highly correlated with GDP, r>0.8
+We decided to drop Health life expectancy because it violated the multicollinearity assumptions as it it was highly correlated with GDP, r>0.8, and GDP had higher predictive value. 
+
 ## Stepwise Selection
-we want to use Stepwise selection to get the best variables with the most predcitvator power by automatic selection.
+We used Stepwise selection based on training data split 70%/30% to get the best variables with the most predcitvator power by automatic selection.
 It seems like the selection methods kept all the variables.
 
 # The Model
