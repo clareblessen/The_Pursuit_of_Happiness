@@ -37,7 +37,7 @@ Since we log transformed some independent variables, we can interpret the IV as 
 
 The model with continent variable : explained 80% of the variance, it also came to the lowest AIC 737.
 
-## normality of error 
+## nNormality of error 
 ![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/normality_of_error.png)
 
 ## Homoscedasticity assumption
@@ -48,8 +48,6 @@ The model with continent variable : explained 80% of the variance, it also came 
 
 
 # Future Applications and Importance
-
-It seems like the common criticism for "The World Happiness Report" is quite valid. A high focus on GDP and strongly correlated features such as health/ life expectancy.
-It goes well with common wisdom that money makes you happy up to a certain threshold. Having good social/family support is extremely important. 
-There are multiple external data sources such as world suicide rates, voting behavior data etc to see if certain factors correlates with behavioral patterns. 
+GDP per Capita and Freedom in a country have the greatest impact on its citizens' happiness.
+There are multiple external data sources such as world suicide rates, voting behavior data etc we'd like to use in the future to see if certain factors correlates with behavioral patterns. 
 
