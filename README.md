@@ -37,10 +37,11 @@ Happiness ~ 2.87+1.42GDP+0.47Family+1.48Freedom+0.14Trust_GovCorruption+0.62Gene
 The model without continent variable : explained 75% of the variance, AIC is 835.
 
 ## normality of error 
-![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/normality of error.png)
+![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/normality_of_error.png)
 
 ## Homoscedasticity assumption
 ![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/residualpolot.png)
+![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/qqplot.png)
 
 
 
