@@ -30,13 +30,12 @@ We used Stepwise selection based on training data split 70%/30% to get the best 
 The selection methods kept all the variables.
 
 # The Model
-The model included categorical variable- continents: explained 80% of the variance, AIC is 736.
 
-Happiness ~ 3.25 + 1.41GDP + 1.48freedom + 0.42family + 0.14corruption + 0.10generosity + 0.08continent_Asia + 0.82continent_Australia + 0.5continent_Europe + 0.74continent_North_America + 0.84continent_South_America
+-- Happiness ~ 3.25 + 1.41GDP + 1.48freedom + 0.42family + 0.14corruption + 0.10generosity + 0.08continent_Asia + 0.82continent_Australia + 0.5continent_Europe + 0.74continent_North_America + 0.84continent_South_America
 
 Since we log transformed some independent variables, we can interpret the IV as follows: we’d say that a one percent increase in the average trust in government would result in a (0.14/100)  increase in the averge happiness. 
 
-The model without continent variable : explained 80% of the variance, it also came to the lowest AIC 737.
+The model with continent variable : explained 80% of the variance, it also came to the lowest AIC 737.
 
 ## normality of error 
 ![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/normality_of_error.png)
