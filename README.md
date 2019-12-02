@@ -32,9 +32,11 @@ The selection methods kept all the variables.
 # The Model
 The model included categorical variable- continents: explained 80% of the variance, AIC is 736.
 
-Happiness ~ 2.87+1.42GDP+0.47Family+1.48Freedom+0.14Trust_GovCorruption+0.62Generosity+0.062continent_Asia+0.78continent_Australia+0.48continent_Europe+0.78continent_North_America+0.85continent_South_America
+Happiness ~ 3.25 + 1.41GDP + 1.48freedom + 0.42family + 0.14corruption + 0.10generosity + 0.08continent_Asia + 0.82continent_Australia + 0.5continent_Europe + 0.74continent_North_America + 0.84continent_South_America
 
-The model without continent variable : explained 75% of the variance, AIC is 835.
+Since we log transformed some independent variables, we can interpret the IV as follows: we’d say that a one percent increase in the average trust in government would result in a (0.14/100)  increase in the averge happiness. 
+
+The model without continent variable : explained 80% of the variance, it also came to the lowest AIC 737.
 
 ## normality of error 
 ![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/normality_of_error.png)
