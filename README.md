@@ -37,7 +37,7 @@ Since we log transformed some independent variables, we can interpret the IV as 
 
 The model with continent variable : explained 80% of the variance, it also came to the lowest AIC 737.
 
-## nNormality of error 
+## Normality of error 
 ![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/normality_of_error.png)
 
 ## Homoscedasticity assumption
