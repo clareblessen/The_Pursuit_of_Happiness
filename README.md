@@ -23,7 +23,7 @@ We then see if the variables are normally distributed and linearly correlated wi
 # Feature Engineering
 ![alt test](https://raw.githubusercontent.com/rockinhumingbird/Mod4_project/master/images/cor.png)
 
-We decided to drop Health life expectancy because it violated the multicollinearity assumptions as it it was highly correlated with GDP, r>0.8, and GDP had higher predictive value. 
+We decided to drop Health life expectancy because it violated the multicollinearity assumptions as it it was highly correlated with GDP, r > 0.8, and GDP had higher predictive value. 
 
 ## Stepwise Selection
 We used Stepwise selection based on training data split 70%/30% to get the best variables with the most predictive power by automatic selection.
@@ -33,7 +33,7 @@ The selection methods kept all the variables.
 
 -- Happiness ~ 3.25 + 1.41GDP + 1.48freedom + 0.42family + 0.14corruption + 0.10generosity + 0.08continent_Asia + 0.82continent_Australia + 0.5continent_Europe + 0.74continent_North_America + 0.84continent_South_America
 
-Since we log transformed some independent variables, we can interpret the IV as follows: we’d say that a one percent increase in the average trust in government would result in a (0.14/100)  increase in the averge happiness. 
+Since we log transformed some independent variables, we can interpret the IV as follows: we’d say that a one percent increase in the average trust in government would result in a (1.01).14 increase in the averge happiness. 
 
 The model with continent variable : explained 80% of the variance, it also came to the lowest AIC 737.
 
