@@ -33,7 +33,7 @@ The selection methods kept all the variables.
 
 -- Happiness ~ 3.25 + 1.41GDP + 1.48freedom + 0.42family + 0.14corruption + 0.10generosity + 0.08continent_Asia + 0.82continent_Australia + 0.5continent_Europe + 0.74continent_North_America + 0.84continent_South_America
 
-Since we log transformed some independent variables, we can interpret the IV as follows: we’d say that a one percent increase in the average trust in government would result in a (1.01).14 increase in the averge happiness. 
+Since we log transformed some independent variables, we can interpret the IV as follows: we’d say that a one percent increase in the average trust in government would result in a (1.01)exp.14 increase in the averge happiness. 
 
 The model with continent variable : explained 80% of the variance, it also came to the lowest AIC 737.
 
